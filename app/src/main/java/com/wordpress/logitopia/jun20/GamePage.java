@@ -3,9 +3,8 @@ package com.wordpress.logitopia.jun20;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
-import android.view.ViewGroup;
 import android.widget.Button;
-import android.widget.TextView;
+import android.widget.Toast;
 
 /**
  * Created by Phenomeno on 6/26/15.
@@ -30,12 +29,24 @@ public class GamePage extends AppCompatActivity {
 
 
     public void option_one_Click(View view) {
+
+        setContentView(R.layout.wrong_answer_1);
+        Toast.makeText(this, "You Lost!!!",Toast.LENGTH_LONG).show();
     }
 
     public void option_two_Click(View view) {
+
+//        Intent onionBootyPage = new Intent(this,)
+
+        Toast.makeText(this,"You WON!!!",Toast.LENGTH_LONG).show();
+
+        setContentView(R.layout.correct_answer);
     }
 
     public void option_three_Click(View view) {
+
+        setContentView(R.layout.wrong_answer_2);
+        Toast.makeText(this, "You Lost!!!",Toast.LENGTH_LONG).show();
     }
 
 }
