@@ -1,0 +1,49 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/play_Game_Text_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/YesImageView"
+        android:layout_centerHorizontal="true"
+        android:background="#D1C4E9"
+        android:lines="1"
+        android:text="@string/play_game_string" />
+
+    <ImageView
+        android:id="@+id/YesImageView"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:contentDescription="@string/yes_image_description_string"
+        android:onClick="OpenGamePageClick"
+        android:src="@drawable/yeah_baby" />
+
+    <TextView
+        android:id="@+id/quit_Game_Text_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/NoImageView"
+        android:layout_centerHorizontal="true"
+        android:background="#D1C4E9"
+        android:lines="1"
+        android:text="@string/quit_game_string" />
+
+    <ImageView
+        android:id="@+id/NoImageView"
+        android:layout_width="300dp"
+        android:layout_height="250dp"
+        android:layout_below="@+id/YesImageView"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:contentDescription="@string/no_image_description_string"
+        android:onClick="ExitAppClick"
+        android:src="@drawable/no_baby_no" />
+
+</RelativeLayout>

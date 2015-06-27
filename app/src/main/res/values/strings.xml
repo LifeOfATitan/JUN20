@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">JUN20</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="yes_image_description_string">Click For Yes</string>
+    <string name="no_image_description_string">Click For No</string>
+    <string name="play_game_string">Click To Play</string>
+    <string name="quit_game_string">Click To Quit</string>
+</resources>
