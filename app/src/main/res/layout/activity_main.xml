@@ -2,7 +2,12 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:layout_centerHorizontal="true"
+    android:layout_centerVertical="true"
+    android:layout_centerInParent="true">
+
+
 
     <TextView
         android:id="@+id/play_Game_Text_id"
@@ -45,5 +50,6 @@
         android:contentDescription="@string/no_image_description_string"
         android:onClick="ExitAppClick"
         android:src="@drawable/no_baby_no" />
+
 
 </RelativeLayout>
