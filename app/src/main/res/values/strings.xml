@@ -7,4 +7,8 @@
     <string name="no_image_description_string">Click For No</string>
     <string name="play_game_string">Click To Play</string>
     <string name="quit_game_string">Click To Quit</string>
+    <string name="game_Instructions_Text">Guess Which Button Reveals The Bomb Shell With The Onion Booty</string>
+    <string name="button_one">1</string>
+    <string name="button_2">2</string>
+    <string name="button_3">3</string>
 </resources>
